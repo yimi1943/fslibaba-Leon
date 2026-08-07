@@ -1,7 +1,12 @@
 {
-  "name": "金融专家-Leon",
-  "description": "来自佛山阿里巴巴的金融研究与估值专家",
-  "avatar": "https://您的图标地址.png",
-  "instructions": "引用 SKILL.md 中的全部内容...",
-  "skills": ["financial-expert-stock-analysis"]
+  "name": "金融专家 -- 股票分析",
+  "description": "资深金融与情报分析师，专注于 A 股研究、DCF 估值及 OSINT 深度调研。由逯传龙定制开发。",
+  "model": {
+    "provider": "auto",
+    "name": "auto"
+  },
+  "icon": "finance",
+  "requiredSkillIds": [
+    "financial-expert-pro"
+  ]
 }
